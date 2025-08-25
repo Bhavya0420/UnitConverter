@@ -1,0 +1,79 @@
+/* Background with gradient */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  width: 400px;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Converter card */
+.converter-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* Inputs and selects */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Row for units */
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.row select {
+  width: 100%;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  background: #ff7eb3;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff4f81;
+}
+
+/* Result display */
+.result {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffe082;
+}
